@@ -2,45 +2,70 @@
 <html>
   <head>
     <title>Мій веб-сайт</title>
+    <style>
+      .header {
+        text-align: center;
+      }
+
+      .sidebar {
+        float: left;
+        width: 20%;
+      }
+
+      .content {
+        margin-left: 20%;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
+    <div class="header">
+      <img src="" alt="Логотип Мого Веб-сайту">
+      <h1>Мій веб-сайт</h1>
+    </div>
+    
     <div class="sidebar">
-        <h2>Навігація</h2>
-        <ul>
-          <li><a href="#list">Список</a></li>
-          <li><a href="#table">Таблиця</a></li>
-          <li><a href="#video">Відео</a></li>
-        </ul>
-      </div>
-    
-      <div class="content">
-        <h1>Мій веб-сайт</h1>
-        
-        <h2 id="list">Список:</h2>
-        <ul>
-          <li>Елемент 1</li>
-          <li>Елемент 2</li>
-          <li>Елемент 3</li>
-        </ul>
-    
-        <h2 id="table">Таблиця:</h2>
-        <table border="1">
+      <h2>Навігація</h2>
+      <ul>
+        <li><a href="#list">Список</a></li>
+        <li><a href="#table">Таблиця</a></li>
+        <li><a href="#video">Відео</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2 id="list">Список:</h2>
+      <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+      </ul>
+
+      <h2 id="table">Таблиця:</h2>
+      <table border="1">
         <tr>
-        <td>Назва</td>
-        <td>Ціна</td>
+          <td>Назва</td>
+          <td>Ціна</td>
         </tr>
         <tr>
-        <td>Продукт 1</td>
-        <td>10$</td>
+          <td>Продукт 1</td>
+          <td>10$</td>
         </tr>
         <tr>
-        <td>Продукт 2</td>
-        <td>20$</td>
+          <td>Продукт 2</td>
+          <td>20$</td>
         </tr>
-     </table>
+      </table>
+
+      <h2 id="video">Відео:</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lh9jfXcrN_g" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+    </div>
     
-     <h2 id="video">Відео:</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lh9jfXcrN_g" title="YouTube video" frameborder="0" allowfullscreen></iframe>
-</div>
+    <div class="footer">
+      <p>© 2023 Мій веб-сайт. Усі права захищені.</p>
+    </div>
   </body>
 </html>
